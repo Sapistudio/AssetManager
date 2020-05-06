@@ -40,9 +40,9 @@ class AssetInstaller extends LibraryInstaller
         if ($pattern) {
             $basePath   = $this->buildPath(rtrim($this->assetsFolderPath,DIRECTORY_SEPARATOR).DIRECTORY_SEPARATOR.ltrim($pattern,DIRECTORY_SEPARATOR), $this->getPackageReplacementTokens($package));
             $targetDir  = $package->getTargetDir();
-            $dsads = $basePath . ($targetDir ? '/'.$targetDir : '');
+            return $basePath.($targetDir ? '/'.$targetDir : '');
         } else {
-            $dsads =  parent::getInstallPath($package);
+            return parent::getInstallPath($package);
         }
         
         
