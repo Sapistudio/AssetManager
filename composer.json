@@ -1,0 +1,15 @@
+{
+  "name": "sapistudio/assetmanager",
+  "type": "composer-plugin",
+  "autoload": {
+    "psr-4": {
+      "Sapistudio\\AssetManager\\": "src"
+    }
+  },
+  "extra": {
+    "class": "Sapistudio\\AssetManager\\Plugin"
+  },
+  "require": {
+    "composer-plugin-api": "~1.0"
+  }
+}
