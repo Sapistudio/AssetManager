@@ -1,6 +1,7 @@
 {
   "name": "sapistudio/assetmanager",
   "type": "composer-plugin",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Sapistudio\\AssetManager\\": "src"
