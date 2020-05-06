@@ -4,7 +4,7 @@ namespace Sapistudio\AssetManager;
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
 
-class CustomInstaller extends LibraryInstaller
+class AssetInstaller extends LibraryInstaller
 {
     protected $configuration;
 
