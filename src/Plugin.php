@@ -9,6 +9,6 @@ class Plugin implements PluginInterface
 {
     public function activate(Composer $composer, IOInterface $io)
     {
-        $composer->getInstallationManager()->addInstaller(new AssetInstaller($io, $composer));
+        //$composer->getInstallationManager()->addInstaller(new AssetInstaller($io, $composer));
     }
 }
